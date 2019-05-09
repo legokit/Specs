@@ -21,3 +21,6 @@ legokit is a collection of iOS components.
 
 ### 参考
 [CocoaPods 官网](https://guides.cocoapods.org)
+
+## 开发规范
+> 组件/类名将以LEGO开头,如LEGOCoreKit.
