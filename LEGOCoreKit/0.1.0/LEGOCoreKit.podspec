@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/564008993@qq.com/LEGOCoreKit'
+  s.homepage         = 'https://github.com/legokit/LEGOCoreKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '564008993@qq.com' => '564008993@qq.com' }
@@ -31,8 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.public_header_files = 'LEGOCoreKit/Classes/LBGOCoreKit.h'
-
-  s.source_files = 'LEGOCoreKit/Classes/**/*'
+  s.source_files = 'LEGOCoreKit/Classes/LBGOCoreKit.h'
 
   s.subspec 'LEGOPrefix' do |ss|
     ss.frameworks = 'UIKit', 'Foundation'
