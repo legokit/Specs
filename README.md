@@ -1,6 +1,13 @@
 # Specs
 legokit is a collection of iOS components.
 
+## Installation
+
+LEGOKIT is available through CocoaPods. To install it, simply add the following line to your Podfile:
+> source 'https://github.com/legokit/Specs.git'
+
+> pod 'LEGOCoreKit'
+
 ## 提交文档
 * 导入一个组件模板：
 > pod lib create XXX
