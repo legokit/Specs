@@ -24,3 +24,6 @@ legokit is a collection of iOS components.
 
 ## 开发规范
 > 组件/类名将以LEGO开头,如LEGOCoreKit.
+
+## 关于单元测试
+> 在具体组件Example上进行单元测试完毕，再推送至specs，specs在无特殊情况下，项目依赖将使用最新版本.
