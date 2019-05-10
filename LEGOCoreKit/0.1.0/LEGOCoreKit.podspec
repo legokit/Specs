@@ -30,19 +30,27 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.public_header_files = 'LEGOCoreKit/Classes/LBGOCoreKit.h'
-  s.source_files = 'LEGOCoreKit/Classes/LBGOCoreKit.h'
+  s.frameworks = 'UIKit', 'Foundation'
+  s.public_header_files = 'LEGOCoreKit/Classes/LGCoreKit.h'
+  s.source_files = 'LEGOCoreKit/Classes/LGCoreKit.h'
 
   # 公共的宏
-  s.subspec 'LEGOPrefix' do |ss|
+  s.subspec 'LGPrefix' do |ss|
     ss.frameworks = 'UIKit', 'Foundation'
-    ss.source_files = 'LEGOCoreKit/Classes/LEGOPrefix/**/*'
+    ss.source_files = 'LEGOCoreKit/Classes/LGPrefix/**/*'
   end
   
   # 权限判断
-  s.subspec 'LEGOAuthority' do |ss|
+  s.subspec 'LGAuthority' do |ss|
       ss.frameworks = 'UIKit', 'Foundation','AVFoundation','Photos','UserNotifications','CoreLocation'
-      ss.source_files = 'LEGOCoreKit/Classes/LEGOAuthority/**/*'
+      ss.source_files = 'LEGOCoreKit/Classes/LGAuthority/**/*'
+  end
+  
+  # 环境、设备信息获取
+  s.subspec 'LGUtility' do |ss|
+      ss.frameworks = 'UIKit', 'Foundation'
+      ss.source_files = 'LEGOCoreKit/Classes/LGUtility/**/*'
+      ss.dependency 'YYCategories'
   end
   
   
