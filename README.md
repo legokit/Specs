@@ -20,9 +20,9 @@ LEGOKIT is available through CocoaPods. To install it, simply add the following 
 
 > --allow-warnings（允许出现警告）
 
-> --use-libraries（引用的.a静态库/.framework静态库或者c语言文件）
+> --use-libraries（引用的 .a 静态库/ .framework 静态库或者c语言文件）
 
-> --sources='https://github.com/legokit/Specs.git,https://github.com/CocoaPods/Specs.git’（依赖其他私有库，公有库）
+> --sources='https://github.com/legokit/Specs.git,https://github.com/CocoaPods/Specs.git’ （依赖其他私有库，公有库）
 
 * 清除本地组件缓存
 > pod cache clean LEGO_XXX
@@ -31,7 +31,7 @@ LEGOKIT is available through CocoaPods. To install it, simply add the following 
 [CocoaPods 官网](https://guides.cocoapods.org)
 
 ## 开发规范
-> 组件/类名将以LEGO开头，如LEGOCoreKit.
+> 组件/类名将以 LEGO 开头，如 LEGOCoreKit，类名可以 LG 开头，以清晰识别其功能，如 LGCoreKit.h.
 
 ## 关于单元测试
-> 在具体组件Example上进行单元测试完毕，再推送至specs，specs在无特殊情况下，项目依赖将使用最新版本.
+> 在具体组件 Example 上进行单元测试完毕，再推送至 specs，specs 在无特殊情况下，项目依赖将使用最新版本.
