@@ -33,10 +33,18 @@ TODO: Add long description of the pod here.
   s.public_header_files = 'LEGOCoreKit/Classes/LBGOCoreKit.h'
   s.source_files = 'LEGOCoreKit/Classes/LBGOCoreKit.h'
 
+  # 公共的宏
   s.subspec 'LEGOPrefix' do |ss|
     ss.frameworks = 'UIKit', 'Foundation'
     ss.source_files = 'LEGOCoreKit/Classes/LEGOPrefix/**/*'
   end
+  
+  # 权限判断
+  s.subspec 'LEGOAuthority' do |ss|
+      ss.frameworks = 'UIKit', 'Foundation','AVFoundation','Photos','UserNotifications','CoreLocation'
+      ss.source_files = 'LEGOCoreKit/Classes/LEGOAuthority/**/*'
+  end
+  
   
   # s.resource_bundles = {
   #   'LEGOCoreKit' => ['LEGOCoreKit/Assets/*.png']
