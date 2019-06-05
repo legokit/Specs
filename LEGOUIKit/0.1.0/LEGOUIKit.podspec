@@ -39,6 +39,17 @@ TODO: Add long description of the pod here.
     ss.dependency 'Masonry'
   end
   
+  s.subspec 'LGImage' do |ss|
+      ss.frameworks = 'UIKit', 'Foundation'
+      ss.source_files = 'LEGOUIKit/Classes/LGImage/**/*'
+      ss.dependency 'SDWebImage'
+  end
+  
+  s.subspec 'LGColor' do |ss|
+      ss.frameworks = 'UIKit', 'Foundation'
+      ss.source_files = 'LEGOUIKit/Classes/LGColor/**/*'
+  end
+  
   # s.resource_bundles = {
   #   'LEGOUIKit' => ['LEGOUIKit/Assets/*.png']
   # }
