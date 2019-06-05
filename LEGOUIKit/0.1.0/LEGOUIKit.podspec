@@ -33,9 +33,10 @@ TODO: Add long description of the pod here.
   s.public_header_files = 'LEGOUIKit/Classes/LEGOUIKit.h'
   s.source_files = 'LEGOUIKit/Classes/LEGOUIKit.h'
 
-  s.subspec 'LEGOBaseViewController' do |ss|
+  s.subspec 'LGNavigation' do |ss|
     ss.frameworks = 'UIKit', 'Foundation'
-    ss.source_files = 'LEGOUIKit/Classes/LEGOBaseViewController/**/*'
+    ss.source_files = 'LEGOUIKit/Classes/LGNavigation/**/*'
+    ss.dependency 'Masonry'
   end
   
   # s.resource_bundles = {
