@@ -29,10 +29,13 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'LEGOCamera/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'LEGOCamera' => ['LEGOCamera/Assets/*.png']
-  # }
+  #  s.resource_bundles = {
+  #  'LEGOCamera' => ['LEGOCamera/Assets/**']
+  #  }
 
+    s.pod_target_xcconfig  =  {
+        'ENABLE_BITCODE' => 'NO'
+    }
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit'
   
