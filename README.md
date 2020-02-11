@@ -31,7 +31,7 @@ LEGOKIT is available through CocoaPods. To install it, simply add the following 
 [CocoaPods 官网](https://guides.cocoapods.org)
 
 ## 开发规范
-> 组件/类名将以 LEGO 开头，如 LEGOCoreKit，类名可以 LG 开头，以清晰识别其功能，如 LGCoreKit.h.
+> 组件/类名将以 LEGO 开头，如 LEGOCoreKit，类名可以 LEGO 开头，以清晰识别其功能，如 LEGOCoreKit.h.
 
 ## 关于单元测试
 > 在具体组件 Example 上进行单元测试完毕，再推送至 specs，specs 在无特殊情况下，项目依赖将使用最新版本.
