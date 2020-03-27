@@ -27,6 +27,15 @@ LEGOKIT is available through CocoaPods. To install it, simply add the following 
 * 清除本地组件缓存
 > pod cache clean LEGO_XXX
 
+> pod trunk…
+> + delete         删除库的一个版本
+> + info           返回库的信息
+> + me             返回当前会话信息
+> + push          发布到cocoapods 公有库
+> + register       注册一个会话
+> + add-owner      添加库的所有者
+> + remove-owner   移除库的所有者
+
 ### 参考
 [CocoaPods 官网](https://guides.cocoapods.org)
 
